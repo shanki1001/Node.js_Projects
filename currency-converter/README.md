@@ -28,10 +28,8 @@ cd currency-converter-cli
 ### 3. Run the app
 node app.js convert --amount=100 --from=USD --to=INR
 
-Example Output
-yaml
-Copy
-Edit
+Example Output:-
+
 100 USD = 8312.00 INR
 
 ####API Used :-
@@ -45,4 +43,4 @@ You must obtain you own API Key and insert it in the code:
 
 ### Sample output:- 
 
-!(Sample run of the project)[screenshot.PNG]
+![Sample run of the project](screenshot.PNG)
