@@ -45,4 +45,4 @@ You must obtain you own API Key and insert it in the code:
 
 ### Sample output:- 
 
-!(Sample run of the project)[screenshot.PNG)
+!(Sample run of the project)[screenshot.PNG]
