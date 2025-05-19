@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Notes App</title>
+      <style>
+         body {
+            font-family: sans-serif;
+            max-width: 600px;
+            margin: 2rem auto;
+         }
+         form {
+            margin-bottom: 1rem;
+         }
+         ul {
+            list-style: none;
+            padding: 0;
+         }
+         li {
+            background: #f0f0f0;
+            margin: 0.5rem 0;
+            padding: 0.5rem;
+            display: flex;
+            justify-content: space-between;
+         }
+         button {
+            margin-left: 3rem;
+         }
+      </style>
+   </head>
+   <body>
+      <h1>Notes App</h1>
+      <form id="noteForm">
+         <input
+            type="text"
+            id="noteInput"
+            placeholder="Write a note..."
+            required
+         />
+         <button type="submit">Add Note</button>
+      </form>
+      <ul id="notesList"></ul>
+      <script src="script.js"></script>
+   </body>
+</html>
